@@ -1,0 +1,5 @@
+node_modules
+build
+package
+package.zip
+yarn.lock

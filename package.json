@@ -1,0 +1,26 @@
+{
+  "name": "alphonse-bot",
+  "version": "1.0.0",
+  "description": "Bot as FAQ for Digital Workplace",
+  "main": "app.js",
+  "scripts": {
+    "compile": "tsc -p tsconfig.json",
+    "compileDev": "tsc -p tsconfigDev.json"
+  },
+  "author": "Pierre-Yves Bardy",
+  "license": "ISC",
+  "dependencies": {
+    "adal-node": "0.1.25",
+    "botbuilder": "^3.11.0",
+    "botbuilder-cognitiveservices": "^1.1.0",
+    "dotenv": "^4.0.0",
+    "node-fetch": "^1.7.3",
+    "restify": "6.3.2",
+    "typescript": "2.5.3",
+    "unescape": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^6.0.90",
+    "@types/restify": "^5.0.6"
+  }
+}
